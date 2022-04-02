@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81761D7524AE7DB30046A6E1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81761D7424AE7DB30046A6E1 /* OpenGL.framework */; };
+		81761D7724AE7DC00046A6E1 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81761D7624AE7DC00046A6E1 /* libglfw.3.3.dylib */; };
+		81761D7924AE7DCF0046A6E1 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81761D7824AE7DCE0046A6E1 /* libGLEW.2.1.0.dylib */; };
+		81792C1E24B05A1D0017FB8E /* stb_implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81761D8524AEE78E0046A6E1 /* stb_implementation.cpp */; };
+		81D0347724DA4B2D00DC3FC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81761D6C24AE7C070046A6E1 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81761D6724AE7C070046A6E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8173292324B0F7D90014AB58 /* light_vertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = light_vertexShader.vs; sourceTree = "<group>"; };
+		8173292424B0F8820014AB58 /* light_fragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = light_fragmentShader.fs; sourceTree = "<group>"; };
+		81761D6924AE7C070046A6E1 /* Circles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Circles; sourceTree = BUILT_PRODUCTS_DIR; };
+		81761D6C24AE7C070046A6E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		81761D7424AE7DB30046A6E1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		81761D7624AE7DC00046A6E1 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		81761D7824AE7DCE0046A6E1 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		81761D7B24AE7FB80046A6E1 /* Shaders.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Shaders.hpp; path = ../../OpenGl_Shader/OpenGl_Shader/Shaders.hpp; sourceTree = "<group>"; };
+		81761D7C24AEA4120046A6E1 /* vertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertexShader.vs; sourceTree = "<group>"; };
+		81761D7D24AEA4B80046A6E1 /* fragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fragmentShader.fs; sourceTree = "<group>"; };
+		81761D7F24AEADCB0046A6E1 /* Work.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Work.hpp; sourceTree = "<group>"; };
+		81761D8524AEE78E0046A6E1 /* stb_implementation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_implementation.cpp; sourceTree = "<group>"; };
+		81792BFB24AFB3970017FB8E /* Circle_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle_test.cpp; sourceTree = "<group>"; };
+		81792BFC24AFB3970017FB8E /* Circle_test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle_test.hpp; sourceTree = "<group>"; };
+		81792C0124AFB6E60017FB8E /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../../../../Downloads/Sphere2/src/Sphere.cpp; sourceTree = "<group>"; };
+		81792C0D24B027050017FB8E /* light_vertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = light_vertexShader.vs; sourceTree = "<group>"; };
+		81792C0F24B027560017FB8E /* light_fragment_shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = light_fragment_shader.fs; sourceTree = "<group>"; };
+		81792C1124B03A1D0017FB8E /* Cubes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cubes.cpp; sourceTree = "<group>"; };
+		81792C1224B03A1D0017FB8E /* Cubes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cubes.hpp; sourceTree = "<group>"; };
+		81792C1424B03C810017FB8E /* cube_vertexShader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = cube_vertexShader.vs; sourceTree = "<group>"; };
+		81792C1524B03CAF0017FB8E /* cube_fragmentShader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = cube_fragmentShader.fs; sourceTree = "<group>"; };
+		81792C1824B0555F0017FB8E /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../../../../../Textures/Textures/vendor/stb_image/stb_image.h; sourceTree = "<group>"; };
+		81792C1924B055640017FB8E /* stb_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stb_image.cpp; path = ../../../../../../Textures/Textures/vendor/stb_image/stb_image.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81761D6624AE7C070046A6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81761D7924AE7DCF0046A6E1 /* libGLEW.2.1.0.dylib in Frameworks */,
+				81761D7724AE7DC00046A6E1 /* libglfw.3.3.dylib in Frameworks */,
+				81761D7524AE7DB30046A6E1 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81761D6024AE7C070046A6E1 = {
+			isa = PBXGroup;
+			children = (
+				81792C1024B03A0C0017FB8E /* Cubes */,
+				81761D6B24AE7C070046A6E1 /* Circles */,
+				81761D6A24AE7C070046A6E1 /* Products */,
+				81761D7B24AE7FB80046A6E1 /* Shaders.hpp */,
+				81761D7324AE7DB30046A6E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81761D6A24AE7C070046A6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81761D6924AE7C070046A6E1 /* Circles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81761D6B24AE7C070046A6E1 /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				81792C0E24B027380017FB8E /* Light_Shader */,
+				81761D6C24AE7C070046A6E1 /* main.cpp */,
+				81761D7C24AEA4120046A6E1 /* vertexShader.vs */,
+				81761D7D24AEA4B80046A6E1 /* fragmentShader.fs */,
+				81761D7F24AEADCB0046A6E1 /* Work.hpp */,
+				81792C0124AFB6E60017FB8E /* Sphere.cpp */,
+				81761D8524AEE78E0046A6E1 /* stb_implementation.cpp */,
+				81792BFB24AFB3970017FB8E /* Circle_test.cpp */,
+				81792BFC24AFB3970017FB8E /* Circle_test.hpp */,
+			);
+			path = Circles;
+			sourceTree = "<group>";
+		};
+		81761D7324AE7DB30046A6E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81761D7824AE7DCE0046A6E1 /* libGLEW.2.1.0.dylib */,
+				81761D7624AE7DC00046A6E1 /* libglfw.3.3.dylib */,
+				81761D7424AE7DB30046A6E1 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81792C0E24B027380017FB8E /* Light_Shader */ = {
+			isa = PBXGroup;
+			children = (
+				81792C0D24B027050017FB8E /* light_vertexShader.vs */,
+				81792C0F24B027560017FB8E /* light_fragment_shader.fs */,
+			);
+			path = Light_Shader;
+			sourceTree = "<group>";
+		};
+		81792C1024B03A0C0017FB8E /* Cubes */ = {
+			isa = PBXGroup;
+			children = (
+				81792C1124B03A1D0017FB8E /* Cubes.cpp */,
+				81792C1224B03A1D0017FB8E /* Cubes.hpp */,
+				81792C1824B0555F0017FB8E /* stb_image.h */,
+				81792C1424B03C810017FB8E /* cube_vertexShader.vs */,
+				81792C1924B055640017FB8E /* stb_image.cpp */,
+				81792C1524B03CAF0017FB8E /* cube_fragmentShader.fs */,
+				8173292324B0F7D90014AB58 /* light_vertexShader.vs */,
+				8173292424B0F8820014AB58 /* light_fragmentShader.fs */,
+			);
+			path = Cubes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81761D6824AE7C070046A6E1 /* Circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81761D7024AE7C070046A6E1 /* Build configuration list for PBXNativeTarget "Circles" */;
+			buildPhases = (
+				81761D6524AE7C070046A6E1 /* Sources */,
+				81761D6624AE7C070046A6E1 /* Frameworks */,
+				81761D6724AE7C070046A6E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circles;
+			productName = Circles;
+			productReference = 81761D6924AE7C070046A6E1 /* Circles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81761D6124AE7C070046A6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Krish Patel";
+				TargetAttributes = {
+					81761D6824AE7C070046A6E1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 81761D6424AE7C070046A6E1 /* Build configuration list for PBXProject "Circles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81761D6024AE7C070046A6E1;
+			productRefGroup = 81761D6A24AE7C070046A6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81761D6824AE7C070046A6E1 /* Circles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81761D6524AE7C070046A6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D0347724DA4B2D00DC3FC1 /* main.cpp in Sources */,
+				81792C1E24B05A1D0017FB8E /* stb_implementation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81761D6E24AE7C070046A6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81761D6F24AE7C070046A6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81761D7124AE7C070046A6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.1.0_1/include,
+					/usr/local/Cellar/glfw/3.3.2/include,
+					"/Users/manishkumarpatel/Desktop/C++/OpenGL_Shader/OpenGL_Shader",
+					/Users/manishkumarpatel/Desktop/Textures/Textures/vendor,
+					/Users/manishkumarpatel/Downloads/Sphere2,
+					/Users/manishkumarpatel/Documents/GitHub,
+					"/Users/manishkumarpatel/Desktop/C++/Textures/Textures/vendor",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81761D7224AE7C070046A6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/2.1.0_1/include,
+					/usr/local/Cellar/glfw/3.3.2/include,
+					"/Users/manishkumarpatel/Desktop/C++/OpenGL_Shader/OpenGL_Shader",
+					/Users/manishkumarpatel/Desktop/Textures/Textures/vendor,
+					/Users/manishkumarpatel/Downloads/Sphere2,
+					/Users/manishkumarpatel/Documents/GitHub,
+					"/Users/manishkumarpatel/Desktop/C++/Textures/Textures/vendor",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81761D6424AE7C070046A6E1 /* Build configuration list for PBXProject "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81761D6E24AE7C070046A6E1 /* Debug */,
+				81761D6F24AE7C070046A6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81761D7024AE7C070046A6E1 /* Build configuration list for PBXNativeTarget "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81761D7124AE7C070046A6E1 /* Debug */,
+				81761D7224AE7C070046A6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81761D6124AE7C070046A6E1 /* Project object */;
+}
